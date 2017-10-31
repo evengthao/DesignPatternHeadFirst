@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternHeadFirst", "D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarBuzz", "StarBuzz\StarBuzz.csproj", "{D976EDE2-9C70-4893-BD98-66F41031A18E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaShop", "PizzaShop\PizzaShop.csproj", "{D6B4CC92-0BD6-411E-8BC8-DC60D59BA887}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D976EDE2-9C70-4893-BD98-66F41031A18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D976EDE2-9C70-4893-BD98-66F41031A18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D976EDE2-9C70-4893-BD98-66F41031A18E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6B4CC92-0BD6-411E-8BC8-DC60D59BA887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B4CC92-0BD6-411E-8BC8-DC60D59BA887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B4CC92-0BD6-411E-8BC8-DC60D59BA887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B4CC92-0BD6-411E-8BC8-DC60D59BA887}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
