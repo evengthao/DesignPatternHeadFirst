@@ -34,6 +34,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,6 +44,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Coffee\Beverage.cs" />
+    <Compile Include="Coffee\DarkRoast.cs" />
+    <Compile Include="Coffee\Decaf.cs" />
+    <Compile Include="Coffee\Expresso.cs" />
+    <Compile Include="Coffee\HouseBlend.cs" />
+    <Compile Include="Condiments\CondimentDecorator.cs" />
+    <Compile Include="Condiments\Milk.cs" />
+    <Compile Include="Condiments\Mocha.cs" />
+    <Compile Include="Condiments\Soy.cs" />
+    <Compile Include="Condiments\Whip.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
