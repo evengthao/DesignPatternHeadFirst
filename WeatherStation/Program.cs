@@ -10,6 +10,14 @@ namespace WeatherStation
     {
         static void Main(string[] args)
         {
+            WeatherData weatherData = new WeatherData();
+
+            var currentDisplay = new CurrentConditionsDisplay(weatherData);
+            var forcastDisplay = new ForcastDisplay(weatherData);
+
+            weatherData.SetMeasurements(90,66,32.3f);
+
+            Console.ReadKey();
         }
     }
 }

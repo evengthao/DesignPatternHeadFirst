@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WeatherStation
 {
-    public class WeatherData : ISubject 
+    public class WeatherData : ISubject
     {
         private List<IObserver> _observers = new List<IObserver>();
         private float _temperature;
@@ -41,6 +41,7 @@ namespace WeatherStation
             this._temperature = temp;
             this._pressure = pressure;
             this._humidity = humidity;
+            MeasurementsChanged();
         }
     }
 }
